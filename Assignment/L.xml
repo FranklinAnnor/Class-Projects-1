@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml- stylesheet type="text/css" href="./xml.css"?>
+<!DOCTYPE student_info  [
+<!ELEMENT student_info (firstName , middleName, lastName, studentID, ResidentAddress, Program ,Age ,Gender)>
+       <!ELEMENT firstName ( #PCDATA)>
+       <!ELEMENT middleName (#PCDATA)>
+       <!ELEMENT lastName (#PCDATA)>
+       <!ELEMENT studentID (#PCDATA)
+       >
+       <!ELEMENT Program (#PCDATA)>
+       <!ELEMENT Age (#PCDATA)>
+       <!ELEMENT Gender  (#PCDATA)>
+      
+]>
+<student_info>
+        <name>
+    <firstName>
+      Annor
+    </firstName>
+    <middleName>Franklin</middleName>
+    <lastName>Akouko</lastName>
+  </name>
+    <studentID>PS/ITC/22/0018</studentID>
+    <Program>
+      BSC INFORMATION TECHNOLOGY
+    </Program>
+    <Age>25 years</Age>
+  <Gender>
+    Male
+  </Gender>
+ 
+  
+
+
+</student_info>

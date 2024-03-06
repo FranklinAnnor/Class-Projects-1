@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="L.css" type="text/css"?>
+<!DOCTYPE Books [
+  <!ELEMENT Books (Book*)>
+  <!ELEMENT Book (Title, Author, ISBN, Publisher, Edition, Price)>
+  <!ELEMENT Title (#PCDATA)>
+  <!ELEMENT Author (#PCDATA)>
+  <!ELEMENT ISBN (#PCDATA)>
+  <!ELEMENT Publisher (#PCDATA)>
+  <!ELEMENT Edition (#PCDATA)>
+  <!ELEMENT Price (#PCDATA)>
+]>
+
+<Books>
+  <Book>
+    <Title>Homegoing</Title>
+    <Author>Yaa Gyasi</Author>
+    <ISBN>978110194135</ISBN>
+    <Publisher>Vintage</Publisher>
+    <Edition>1st edition</Edition>
+    <Price>$16.00</Price>
+  </Book>
+  <Book>
+    <Title>Wife of the Gods</Title>
+    <Author>Kwei Quartey</Author>
+    <ISBN>9780812979367</ISBN>
+    <Publisher>Random House Trade Paperbacks</Publisher>
+    <Edition>Reprint</Edition>
+    <Price>$14.00</Price>
+  </Book>
+  <Book>
+    <Title>To Kill a Mockingbird</Title>
+    <Author>Harper Lee</Author>
+    <ISBN>9780446310789</ISBN>
+    <Publisher>Grand Central Publishing</Publisher>
+    <Edition>50th anniversary</Edition>
+    <Price>$10.00</Price>
+  </Book>
+  <Book>
+    <Title>The Great Gatsby</Title>
+    <Author>F. Scott Fitzgerald</Author>
+    <ISBN>9780743273565</ISBN>
+    <Publisher>Scribner</Publisher>
+    <Edition>1st edition</Edition>
+    <Price>$15.00</Price>
+  </Book>
+  <Book>
+    <Title>Pride and Prejudice</Title>
+    <Author>Jane Austen</Author>
+    <ISBN>9780141439518</ISBN>
+    <Publisher>Penguin Classics</Publisher>
+    <Edition>Revised edition</Edition>
+    <Price>$7.99</Price>
+  </Book>
+</Books>
