@@ -1,0 +1,47 @@
+.form-container{
+  margin-bottom: 20px;
+  text-align: left;
+}
+form{
+  margin: 50px auto;
+    padding: 30px 30px;
+    max-width: 350px;
+    margin-top: -20px;
+    background-color: gold;
+}
+
+#Parents,#Parents-number{
+  margin-bottom: 12px;
+}
+#select{
+  display: inline-block;
+  margin-right: 6px;
+  
+}
+
+#national {
+  cursor: pointer;
+}
+body{
+  background-color: goldenrod;
+  font-family: verdana;
+}
+button{
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: goldenrod;
+  padding: 5px 5px 5px;
+  border: 1px white solid;
+  border-style:dashed;
+  cursor: pointer;
+}
+button:hover{
+  color: black;
+  background-color: white;
+  border-color: goldenrod;
+}
+
+.form-container input[ type="text"]{
+ width: 95%; 
+}

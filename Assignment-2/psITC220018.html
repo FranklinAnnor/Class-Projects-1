@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS Assignment</title>
+<style type="text/css">
+  label{
+  display:block 
+  ;
+  margin-bottom: 4px;
+  margin-top: 6px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+legend{
+  font-weight: bold;
+  font-family: Arial;
+  margin-bottom: 10px;
+  color:gray;
+}
+
+
+fieldset{
+  margin: 25px;
+ background-color:none;
+
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  
+}
+
+
+.form-cn input,
+.form-cn select,
+.form-cn textarea
+{
+  display: block;
+  padding: 10px;
+  width: 80%;
+}
+.form-cn input[type="radio"]
+{
+  display: inline-block;
+  width: auto;
+}
+input[type="text"]{
+  width: 80%;
+}
+.submit{
+  width: 35%;
+  padding: 5px 5px 5px ;
+  background-color: white;
+  border: 1px;
+  color: green;
+  margin-left: 40px;
+}
+
+.submit:hover{
+  cursor: pointer;
+  border-style: dashed;
+  border-color:lightblue ;
+}
+
+#field-st{
+  align-content: center;
+  width: 75%;
+  margin-left: 12%;
+  margin-top: 10%;
+  margin-right: 20%;
+  
+}
+</style>
+  </head>
+  <body>
+    <fieldset id="field-st">
+      <form action="#" method="post">
+        <h1>Register</h1>
+        <fieldset>
+          <legend>Personal Details</legend>
+          <div class="form-cn">
+            <label>First Name</label>
+            <input type="text"  placeholder="First Name" />
+          </div>
+
+          <div class="form-cn">
+            <label>Last Name</label>
+            <input type="text"  placeholder="Last Name" />
+          </div>
+          <div class="form-cn">
+            <label>Date of Birth</label>
+            <input type="date" value="Date of Birth" placeholder="dd/MM/yy" />
+          </div>
+          <div class="forn-cn">
+            <label>Email</label>
+            <input type="text"  placeholder="example@100.com" />
+          </div>
+
+          <div  class="forn-cn">
+            <label>Telephone</label>
+            <input type="text" placeholder="Enter Telephone">
+          </div>
+
+          <div  class="forn-cn">
+            <label>URL</label>
+            <input type="url"  placeholder=" Url:http://me.com">
+          </div>
+
+          <div  class="forn-cn">
+            <label>Hobbies</label>
+            <select>
+              <option >Reading</option>
+              <option >Football</option>
+              <option > Entertainment</option>
+              <option > Video game</option>
+              <option> Coding</option>
+              <option> Movies</option>
+              <option> Tour</option>
+              <option > Researching</option>
+              <option >Cooking</option>
+              <option > Sing</option>
+              <option>Art</option>
+              <option >Designer</option>
+            </select>
+          </div>
+          <div  class="forn-cn">
+            <label>Flying Skill level (0 Low-High 100) </label>
+            <input type="range" min="0 %" max="100%" step="2" value="4" size="4">
+          
+          </div>
+          <input type="radio">
+         
+        </fieldset>
+
+        <fieldset>
+          <legend>Bill Address</legend>
+          <div  class="forn-cn">
+            <label>Address</label>
+            <textarea placeholder="Address"></textarea>
+          </div>
+
+          <div  class="forn-cn">
+            <label>
+              Post Code
+            </label>
+            <input type="text" placeholder="Enter your post code">
+          </div>
+          <div  class="forn-cn">
+            <label>
+              Country
+            </label>
+            <input type="text" placeholder="Enter your Country">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Card Details</legend>
+          <fieldset>
+            <legend>Card Type</legend>
+           <div class="form-cn"> <input type="radio" select> VISA
+            <input type="radio"> Mastercard
+            <input type="radio"> AMEX</div>
+          </fieldset>
+
+       <fieldset>  <div form-cn> <label>Name</label>
+        <input type="text" placeholder="name"> </div>
+      
+        <div class="form-cn">
+          <label>Card Number</label>
+          <input type="text" placeholder=" card number">
+        </div>
+        <div class="form-cn">
+          <label>Security Code</label>
+          <input type="text" placeholder=" Security Code">
+        </div>
+        <div class="form-cn">
+          <label>Expiry Date</label>
+          <input type="datetime">
+        </div></fieldset>
+        <fieldset><input type="submit" value="Place Order"> </fieldset>
+        
+        </fieldset>
+     
+      </form>
+    </fieldset>
+  </body>
+</html>

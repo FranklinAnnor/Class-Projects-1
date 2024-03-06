@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    
+    <link rel="stylesheet" type="text/css" href="../Assignment/Survey Form.css">
+  </head>
+  <body>
+    
+
+    <form style="text-align: center">
+      <fieldset>
+        <h1>Ucc Survey Form</h1>
+        <div class="form-control">
+          <label style="display: block; margin-bottom: 10px">Name</label>
+          <input type="text" name="Name"
+          placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+          <label style="display: block; margin-bottom: 10px">Email</label>
+          <input type="text" name="Name " placeholder="Enter your email" />
+        </div>
+
+
+        <div class="form-control"><label  style="display: block; margin-bottom: 10px;">Age</label>
+          <input type="text"   name="Name"           placeholder="Enter your age"></div>
+
+          
+        <div class="form-control"><label  style="display: block; margin-bottom: 10px;"> Which option best discribes you?</label>
+        <select>
+          <option>Student</option>
+          <option> Itern</option>
+          <option>Professional</option>
+          <option>Other</option>
+        </select>  
+        </div>
+
+
+        
+        <div class="form-control"><label  style="display: block; margin-bottom: 10px;">Would you recommend Ucc to your friends?</label>
+          <input type="radio" name="choice">Yes
+          <input type="radio" name="choice">No
+          <input type="radio" name="choice">May be
+        </div>
+
+        <div class="form-control">
+          <label style="display: block; margin-bottom: 10px"> Select languages and frame works you like?</label>
+          <input type="checkbox" name="select " >C
+          <input type="checkbox" name="select " >C++
+          <input type="checkbox" name="select " >Java
+          <input type="checkbox" name="select " >Python
+        </div>
+        
+
+        <div class="form-control"><label  style="display: block; margin-bottom: 10px;">Any comments or suggestions?</label>
+         <textarea placeholder="Enter your comment here"></textarea> 
+        </div>
+        <button type="submit"  >submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

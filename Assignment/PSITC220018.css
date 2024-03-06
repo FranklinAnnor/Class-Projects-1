@@ -1,0 +1,112 @@
+h1{
+  text-align: center;
+  font-family: Arial;
+  margin-bottom: 0;
+  color:black;
+  font-weight: bold;
+  padding-bottom: 14px;
+  text-decoration: underline;
+
+}
+#q{
+  color: black;
+}
+
+nav{
+  float:left;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+.header{
+  background-image: url(../Assignment/Big\ Akwasi\ 1.1.jpg);
+height: 55px;
+display: flex;
+flex-direction: row;
+align-items: center;
+position: fixed;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: black;
+}
+
+.left-section{
+ 
+  margin-left: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+
+.middle-section{ 
+margin-left: 30px;
+flex: 1;
+}
+
+.right-section{
+  display: flex;
+  align-items: center;
+margin-left: 30px;
+
+}
+
+.image{
+  height: 40px;
+  border-radius: 20px;
+ 
+}
+body{
+  padding-top: 20px;
+  background-color: rgb(250, 222, 172);
+  margin: 1px;
+
+}
+.AB{
+  height: 322px;
+  
+  float: left;
+  margin-left:0px;
+  margin-right: 0;
+  margin-bottom: 5px;
+ 
+}
+
+.AC{
+  height:320px;
+  float: left;
+}
+h2{
+padding-top: 26px;
+  text-align: center;
+  font-family: Arial;
+  text-decoration: underline;
+color:black;
+padding-top: 58px;
+}
+
+#p1{
+  margin: 6px;
+}
+
+p{
+  font-family:Arial;
+  font-size: 19px;
+}
+
+.Dev{
+  background-color: rgb(60, 57, 57);
+  margin-top: 40px;
+  height: 16px;
+  color: white;
+  background-image: url(../Assignment/Big\ Akwasi\ 1.1.jpg);
+  height: 24px;
+  
+
+}
+
+

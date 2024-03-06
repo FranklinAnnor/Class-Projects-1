@@ -1,0 +1,37 @@
+body{
+  text-align: center;
+  margin-top: 19%;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  background-color:darkgoldenrod;
+}
+button{
+  padding: 16px;
+  font-size: 22px;
+  font-family: Arial;
+  margin-left:37%;
+  width: 305px;
+  display: block;
+  margin-bottom:8px ;
+  border: 2px solid lightblue;
+  border-style:double;
+  background-color:tomato;
+  color: white;
+  box-shadow: 1px 2px 4px black;
+  cursor: pointer;
+}
+
+
+
+button:hover{
+  opacity: 0.4;
+
+}
+button:active{
+  background-color: darkkhaki;
+}
+p{
+  color: white;
+  font-size: 36px;
+}
